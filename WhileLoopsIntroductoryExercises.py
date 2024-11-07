@@ -66,7 +66,17 @@ elif  average <= 59:
 #4
 
 user_number = int(input("Enter an integer: "))
-print 
+while user_number >= 0: 
+    print(user_number )
+    user_number = user_number -1
+
+#5
+
+user_number = int(input("Enter and integer: "))
+while user_number >= 0: 
+    print(user_number )
+    user_number = user_number -2
+
 
 
 
